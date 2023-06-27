@@ -1,0 +1,29 @@
+/* Write your CSS code here */
+.blog-item {
+  list-style-type: none;
+  border-bottom: 1px solid #9aa5b1;
+  width: 100%;
+}
+
+.blog-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.description {
+  color: #616e7c;
+  font-family: 'Roboto';
+}
+
+.date {
+  color: #616e7c;
+  font-family: 'Roboto';
+}
